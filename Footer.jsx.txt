@@ -1,0 +1,9 @@
+function Footer() {
+  return (
+    <footer className="bg-gray-800 p-4 text-center text-white mt-auto">
+      <p>© 2025 Bluestock Fintech</p>
+    </footer>
+  );
+}
+
+export default Footer;

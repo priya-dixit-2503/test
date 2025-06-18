@@ -1,0 +1,13 @@
+import React from 'react';
+import IpoList from './components/IpoList';
+
+function App() {
+  return (
+    <div className="min-h-screen bg-gray-100">
+      <h1 className="text-3xl text-center font-bold py-6">Upcoming IPOs</h1>
+      <IpoList />
+    </div>
+  );
+}
+
+export default App;
